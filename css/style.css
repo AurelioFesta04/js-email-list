@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: lightcoral;
+}
+
+.container {
+    gap: 2rem;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottone {
+    font-size: 2rem;
+    color: red;
+    background-color: aqua;
+}
+
+li {
+    line-height: 2rem;
+}

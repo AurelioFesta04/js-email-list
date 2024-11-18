@@ -18,7 +18,7 @@ async function generatoreDieciEmail() {
 
     result.forEach(email => {
         const listElem = document.createElement("li");
-        listElem.innerHTML = email;
+        listElem.innerHTML = `<i class="fa-regular fa-envelope" style="color: #74C0FC;"></i> ${email}`;
         emailList.appendChild(listElem);
     });
 }
